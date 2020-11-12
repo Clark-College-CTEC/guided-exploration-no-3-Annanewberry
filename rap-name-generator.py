@@ -26,8 +26,8 @@ for i in range(count):
         # Randomly select a name from the possible_names list and append it to the name_parts list
         name_parts.append(possible_names[random.randint(0, len(possible_names)-1)])
         # Write the names to the rap-names-output.txt file and take the name_parts list items and join them together with a space between
-        outputFile.write(f"{' '.join(name_parts)}\n")
-        # Print the names out
-        print(f"{' '.join(name_parts)}")
+    outputFile.write(f"{' '.join(name_parts)}\n")
+    # Print the names out
+    print(f"{' '.join(name_parts)}")
 # Close the output file
 outputFile.close()
